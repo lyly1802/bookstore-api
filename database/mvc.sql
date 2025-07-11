@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1:3306
--- Generation Time: Jul 11, 2025 at 04:04 AM
+-- Generation Time: Jul 11, 2025 at 04:14 AM
 -- Server version: 8.3.0
 -- PHP Version: 8.2.18
 
@@ -237,14 +237,10 @@ CREATE TABLE IF NOT EXISTS `users` (
 --
 
 INSERT INTO `users` (`role`, `email`, `password`, `name`, `address`, `phone`, `avatar`) VALUES
-('USER', 'a@gmail.com', '$2b$10$/anPV4fCrbL5CZxYQBmc2OthBqDRxCOL3iBzVWH6Xh4G5xdUF3Fe6', 'sh', 'sài gòn', '0123456789', ''),
-('ADMIN', 'ha@gmail.com', '$2b$10$.gBUjQnfW81C/VvFk7Zq8uNH1PMrjy3OoIoZdVLbUj3MSrMUl3ugu', 'Ly Ly', 'Hồ Chí Minh', '0339519874', ''),
-('USER', 'hung.stu@gmail.com', 'e10adc3949ba59abbe56e057f20f883e', 'Đại Ca - Trần văn Hùng', 'Quận 3', '090090999', ''),
+('ADMIN', 'admin@gmail.com', '$2b$10$sEREfW.UYqeE3kzq/3i2neL/Qe0LJ1Cm8qAoPm0CZq2/NWOck4fyy', 'admin', 'hồ chí minh', '0123456789', NULL),
 ('USER', 'ken@gmail.com', '$2b$10$gezmkrmPYgLFIPWKGkjJ5unT.Z8a9AbOlsmE79r3HEFtj4OKhszIa', 'ken', 'hoài hương', '0123456789', NULL),
 ('USER', 'lyle180203@gmail.com', '$2b$10$LvugERwFRAIJPSRzpYqH..Fl9WTuJxr.S.eP9jvIXRFLVy3v.NxXq', 'Ly Ly Le Thi', '', '', NULL),
-('USER', 'q@gmail.com', '$2b$10$tD1Z8xzdQ22xRjaTN5.EUuhYtQB3xGSYWdrrXtx78sV8qGBsOr87S', 'q', 'q', 'q', ''),
-('USER', 'reactjsminhkiet@gmail.com', '', 'ReactJS KietLyDanh', '', '', NULL),
-('ADMIN', 's@gamil.com', '$2b$10$KEabwtqlRCRyRixnlaLsRu7..NEVdqQzNM2lgYQ3qGX242tXhrtp2', 's', 'm', '0123456789', '');
+('USER', 'reactjsminhkiet@gmail.com', '', 'ReactJS KietLyDanh', '', '', NULL);
 
 --
 -- Constraints for dumped tables
